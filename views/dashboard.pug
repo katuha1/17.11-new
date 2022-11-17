@@ -19,88 +19,17 @@
         figure.figure
           button.process
             figcaption.figure-caption Новые
-          
           button.plus
-             input.type="checkbox" id="bokovon-lodsaba"  
-              div.bokovaya-panel
-                label.nogamlenu-knopki-2(for="bokovon-lodsaba") +
-                div.zagolovok Добавить задачу
-                p 
-                  div.zagolovok1 Название задачи: 
-                p 
-                  div.zagolovok1 Дата:  
-                  input(name="guruweba_example_date" type="date")  
-                p  
-                  div.zagolovok1 Автор:  
-                    img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")  
-             
-                p 
-                  div.panel1 Пункты:
-                    p 
-                     input.type="checkbox" name="a" value="Сделать обложку")  Сделать обложку
-                    p 
-                     input.type="checkbox" name="a" value="Разработать код")  Разработать код
-                    div
-                      p  Добавить  
-                        input(name="guruweba_example_text" type="text")
-                        input(name="guruweba_example_submit" type="submit" value="Отправить")
-                        div
-                          input(name="guruweba_example_submit" type="submit" value="Сохранить")
-
-              div.nogamlenu-knopki-1-wr 
-                label.nogamlenu-knopki-1(for="bokovon-lodsaba") 
-                  div.side-b.side-open +
-                  div.side-b.side-close +
-          br
-          button.zadacha
-            input( type="checkbox" id="bokovon-lodsaba")    
-            div.side-panel
-              label.side-button-2(for="side-checkbox") +
-              div.side Открытая задача
-              p 
-                div.panel Название задачи:
-              p 
-                div.panel1 Описание задачи:
-              p 
-                div.panel1 Дата:  
-                input(name="guruweba_example_date" type="date")
-
-              p 
-              div.panel1 Выполняет:  
-                img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
-              
-              p 
-              div.panel1 Пункты:
-                p 
-                  input.type="checkbox" name="a" value="Сделать обложку")  Сделать обложку
-                p 
-                  input.type="checkbox" name="a" value="Разработать код")  Разработать код
-                div
-                  p  Добавить  
-                    input(name="guruweba_example_text" type="text") 
-                    input(name="guruweba_example_submit" type="submit" value="Отправить")
-              p 
-              div.panel1 Комментарии:
-                p
-                 img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")  Как сделать???
-                p
-                 img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")  Поменять...
-                 input(name="guruweba_example_text" type="text" )   
-                 input(name="guruweba_example_submit" type="submit" value="Отправить")
-              
-            div.side-button-1-wr
-              label.side-button-1(for="side-checkbox")
-                div.side-b.side-open Открыть задачу
-                div.side-b.side-close Закрыть задачу
             p.a Название задачи:
             p.a Краткое описание:
             br
             br
             p.a Дата:
             p.a 
-               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
-               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
-               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+            .zad
+               img(src="zadacha.png"  alt="Responsive image") 0/5
+               img(class="comment" src="comment.png"  alt="Responsive image") 3
+               img(class="ava" src="ava.png"  alt="Responsive image")
       div.col
         figure.figure 
           br
@@ -111,9 +40,9 @@
             br
             p.a Дата:
             p.a 
-               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
-               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
-               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")  
+               img(class="zad" src="zadacha.png"  alt="Responsive image") 0/5
+               img(class="comment" src="comment.png"  alt="Responsive image") 3
+               img(class="ava" src="ava.png"  alt="Responsive image")  
             
     div.row.align-items-start
       div.col 
@@ -130,9 +59,9 @@
             br
             p.a Дата:
             p.a 
-               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
-               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
-               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image") 
+               img(class="zad" src="zadacha.png"  alt="Responsive image") 0/5
+               img(class="comment" src="comment.png"  alt="Responsive image") 3
+               img(class="ava" src="ava.png"  alt="Responsive image") 
             
           
         
@@ -146,9 +75,9 @@
             br
             p.a Дата:
             p.a 
-               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
-               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
-               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+               img(class="zad" src="zadacha.png"  alt="Responsive image") 0/5
+               img(class="comment" src="comment.png"  alt="Responsive image") 3
+               img(class="ava" src="ava.png"  alt="Responsive image")
               
     div.row.align-items-start
       div.col
@@ -165,9 +94,9 @@
             br
             p.a Дата:
             p.a 
-               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
-               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
-               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image") 
+               img(class="zad" src="zadacha.png"  alt="Responsive image") 0/5
+               img(class="comment" src="comment.png"  alt="Responsive image") 3
+               img(class="ava" src="ava.png"  alt="Responsive image") 
             
         div.col 
           figure.figure
@@ -179,9 +108,9 @@
             br
             p.a Дата:
             p.a 
-               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
-               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
-               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+               img(class="zad" src="zadacha.png"  alt="Responsive image") 0/5
+               img(class="comment" src="comment.png"  alt="Responsive image") 3
+               img(class="ava" src="ava.png"  alt="Responsive image")
               
     div.row.lign-items-start
       div.col
@@ -198,9 +127,9 @@
             br
             p.a Дата:
             p.a 
-               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
-               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
-               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+               img(class="zad" src="zadacha.png"  alt="Responsive image") 0/5
+               img(class="comment" src="comment.png"  alt="Responsive image") 3
+               img(class="ava" src="ava.png"  alt="Responsive image")
             
         div.col 
           figure.figure
@@ -212,9 +141,9 @@
             br
             p.a Дата:
             p.a 
-               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
-               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
-               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+               img(class="zad" src="zadacha.png"  alt="Responsive image") 0/5
+               img(class="comment" src="comment.png"  alt="Responsive image") 3
+               img(class="ava" src="ava.png"  alt="Responsive image")
               
 body 
 div.container-fluid 
