@@ -21,7 +21,7 @@ body {
 
 .figure-caption1 {
   font: 18px kelt !important;
-  color: #EADABA !important;
+  color: #eadaba !important;
   margin-top: 0;
 }
 
@@ -76,101 +76,108 @@ body {
   text-align: center;
 }
 
-.side{
-    font: 27px kelt;
+.side {
+  font: 27px kelt;
 }
-.panel{
-    text-align: left;
-    font: 20px kelt;
-    background-color: #E3E0D9;
-    border-radius: 10px;
+.panel {
+  text-align: left;
+  font: 20px kelt;
+  background-color: #e3e0d9;
+  border-radius: 10px;
 }
-.panel1{
-    text-align: left;
-    font: 20px kelt;
-    background-color: #E3E0D9;
-    border-radius: 10px;
-    margin: 10 0 0 55px;
+.panel1 {
+  text-align: left;
+  font: 20px kelt;
+  background-color: #e3e0d9;
+  border-radius: 10px;
+  margin: 10 0 0 55px;
 }
-
 
 #side-checkbox {
-    display: none;
+  display: none;
 }
 .side-panel {
-    position: fixed;
-    z-index: 999999;
-    top: 0;
-    left: -360px;
-    background: #F3F3EE;
-    transition: all 0.5s;   
-    width: 320px;
-    height: 100vh;
-    box-shadow: 10px 0 20px rgb(119, 117, 117);
-    color: rgb(0, 0, 0);
-    padding: 40px 20px;
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: -360px;
+  background: #f3f3ee;
+  transition: all 0.5s;
+  width: 320px;
+  height: 100vh;
+  box-shadow: 10px 0 20px rgb(119, 117, 117);
+  color: rgb(0, 0, 0);
+  padding: 40px 20px;
 }
 /* Оформление кнопки на странице */
 .side-button-1-wr {
-    text-align: center; /* Контейнер для кнопки, чтобы было удобнее ее разместить */
+  text-align: center; /* Контейнер для кнопки, чтобы было удобнее ее разместить */
 }
 .side-button-1 {
-    display: inline-block;
+  display: inline-block;
 }
 .side-button-1 .side-b {
-    margin: 10px;
-    font-size: 20px;
-    line-height: 20px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    text-transform: uppercase; 
-    font: 15px kelt;
+  margin: 10px;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  font: 15px kelt;
 }
 .side-button-1 .side-b:hover,
 .side-button-1 .side-b:active,
 .side-button-1 .side-b:focus {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 .side-button-1 .side-b:after,
 .side-button-1 .side-b:before {
-    position: absolute;
-    height: 4px;
-    left: 50%;
-    bottom: -6px;
-    content: "";
-    transition: all 280ms ease-in-out;
-    width: 0;
+  position: absolute;
+  height: 4px;
+  left: 50%;
+  bottom: -6px;
+  content: '';
+  transition: all 280ms ease-in-out;
+  width: 0;
 }
 
 /* Переключатели кнопки 1 */
 .side-button-1 .side-close {
-    display: none;
+  display: none;
 }
-#side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-open {
-    display: none;
+#side-checkbox:checked
+  + .side-panel
+  + .side-button-1-wr
+  .side-button-1
+  .side-open {
+  display: none;
 }
-#side-checkbox:checked + .side-panel + .side-button-1-wr .side-button-1 .side-close {
-    display: block;
+#side-checkbox:checked
+  + .side-panel
+  + .side-button-1-wr
+  .side-button-1
+  .side-close {
+  display: block;
 }
 #side-checkbox:checked + .side-panel {
-    left: 0;
+  left: 0;
 }
 /* Оформление кнопки на панеле */
 .side-button-2 {
-    font-size: 30px;
-    border-radius: 20px;
-    position: absolute;
-    z-index: 1;
-    top: 8px;
-    right: 8px;
-    cursor: pointer;
-    transform: rotate(45deg);
-    color: #000000;    
-    transition: all 280ms ease-in-out;    
+  font-size: 30px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  transform: rotate(45deg);
+  color: #000000;
+  transition: all 280ms ease-in-out;
 }
 .side-button-2:hover {
-    transform: rotate(45deg) scale(1.1);    
-    color: rgb(0, 0, 0);
+  transform: rotate(45deg) scale(1.1);
+  color: rgb(0, 0, 0);
 }
 
 .slide-container {
@@ -218,48 +225,47 @@ body {
   opacity: 0;
 }
 
-
 #bokovon-lodsaba {
   display: none;
 }
-.bokovaya-kapanel {
+.bokovaya-panel {
   position: fixed;
   z-index: 999999;
   top: 0;
   left: -360px;
-  background: #F3F3EE;
-  transition: all 0.5s;   
+  background: #f3f3ee;
+  transition: all 0.5s;
   width: 320px;
   height: 100vh;
   box-shadow: 10px 0 20px rgb(119, 117, 117);
   color: rgb(0, 0, 0);
   padding: 40px 20px;
 }
-.vobocuka-kagolovok {
+.zagolovok {
   font: 27px kelt;
 }
-.vobocuka-kagolovok1{
+.zagolovok1 {
   text-align: left;
-    font: 20px kelt;
-    background-color: #E3E0D9;
-    border-radius: 10px;
-    margin: 10 0 0 55px;
+  font: 20px kelt;
+  background-color: #e3e0d9;
+  border-radius: 10px;
+  margin: 10 0 0 55px;
 }
 /* Оформление кнопки на странице */
 .nogamlenu-knopki-1-wr {
-  text-align: center;  
+  text-align: center;
 }
 .nogamlenu-knopki-1 {
   display: inline-block;
 }
 .nogamlenu-knopki-1 .side-b {
   margin: 10px;
-    font-size: 20px;
-    line-height: 20px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    text-transform: uppercase; 
-    font: 15px kelt;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  font: 15px kelt;
 }
 .nogamlenu-knopki-1 .side-b:hover,
 .nogamlenu-knopki-1 .side-b:active,
@@ -272,7 +278,7 @@ body {
   height: 2px;
   left: 50%;
   bottom: -6px;
-  content: "";
+  content: '';
   transition: all 280ms ease-in-out;
   width: 0;
 }
@@ -296,13 +302,21 @@ body {
 .nogamlenu-knopki-1 .side-close {
   display: none;
 }
-#bokovon-lodsaba:checked + .bokovaya-kapanel + .nogamlenu-knopki-1-wr .nogamlenu-knopki-1 .side-open {
+#bokovon-lodsaba:checked
+  + .bokovaya-panel
+  + .nogamlenu-knopki-1-wr
+  .nogamlenu-knopki-1
+  .side-open {
   display: none;
 }
-#bokovon-lodsaba:checked + .bokovaya-kapanel + .nogamlenu-knopki-1-wr .nogamlenu-knopki-1 .side-close {
+#bokovon-lodsaba:checked
+  + .bokovaya-panel
+  + .nogamlenu-knopki-1-wr
+  .nogamlenu-knopki-1
+  .side-close {
   display: block;
 }
-#bokovon-lodsaba:checked + .bokovaya-kapanel {
+#bokovon-lodsaba:checked + .bokovaya-panel {
   left: 0;
 }
 /* Оформление кнопки на панели */
@@ -315,11 +329,10 @@ body {
   right: 8px;
   cursor: pointer;
   transform: rotate(45deg);
-  color: #000000;  
-  transition: all 280ms ease-in-out;  
+  color: #000000;
+  transition: all 280ms ease-in-out;
 }
 .nogamlenu-knopki-2:hover {
-  transform: rotate(45deg) scale(1.1);  
+  transform: rotate(45deg) scale(1.1);
   color: #f7f3f3;
 }
-
