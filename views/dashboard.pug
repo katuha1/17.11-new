@@ -1,0 +1,222 @@
+ <!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kanben Board</title>
+  <link rel="stylesheet" href="1style.css" />
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+ body 
+  div.vverh Доска
+
+  div.container 
+    div.row.align-items-start
+      div.col 
+        figure.figure
+          button.process
+            figcaption.figure-caption Новые
+          
+          button.plus
+             input(type="checkbox" id="bokovon-lodsaba")   
+              div.bokovaya-kapanel
+                label.nogamlenu-knopki-2(for="bokovon-lodsaba") +
+                div.vobocuka-kagolovok Добавить задачу
+                p 
+                  div.vobocuka-kagolovok1 Название задачи: 
+                p 
+                  div.vobocuka-kagolovok1 Дата:  
+                  input(name="guruweba_example_date" type="date")  
+                p  
+                  div.vobocuka-kagolovok1 Автор:  
+                    img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")  
+             
+                p 
+                  div.panel1 Пункты:
+                    p 
+                     input(type="checkbox" name="a" value="Сделать обложку")  Сделать обложку
+                    p 
+                     input(type="checkbox" name="a" value="Разработать код")  Разработать код
+                    div
+                      p  Добавить  
+                        input(name="guruweba_example_text" type="text")
+                        input(name="guruweba_example_submit" type="submit" value="Отправить")
+                        div
+                          input(name="guruweba_example_submit" type="submit" value="Сохранить")
+
+              div.nogamlenu-knopki-1-wr 
+                label.nogamlenu-knopki-1(for="bokovon-lodsaba") 
+                  div.side-b.side-open +
+                  div.side-b.side-close +
+          br
+          button.zadacha
+            input( type="checkbox" id="bokovon-lodsaba")    
+            div.side-panel
+              label.side-button-2(for="side-checkbox") +
+              div.side Открытая задача
+              p 
+                div.panel Название задачи:
+              p 
+                div.panel1 Описание задачи:
+              p 
+                div.panel1 Дата:  
+                input(name="guruweba_example_date" type="date")
+
+              p 
+              div.panel1 Выполняет:  
+                img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+              
+              p 
+              div.panel1 Пункты:
+                p 
+                  input(type="checkbox" name="a" value="Сделать обложку")  Сделать обложку
+                p 
+                  input(type="checkbox" name="a" value="Разработать код")  Разработать код
+                div
+                  p  Добавить  
+                    input(name="guruweba_example_text" type="text") 
+                    input(name="guruweba_example_submit" type="submit" value="Отправить")
+              p 
+              div.panel1 Комментарии:
+                p
+                 img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")  Как сделать???
+                p
+                 img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")  Поменять...
+                 input(name="guruweba_example_text" type="text" )   
+                 input(name="guruweba_example_submit" type="submit" value="Отправить")
+              
+            div.side-button-1-wr
+              label.side-button-1(for="side-checkbox")
+                div.side-b.side-open Открыть задачу
+                div.side-b.side-close Закрыть задачу
+            p.a Название задачи:
+            p.a Краткое описание:
+            br
+            br
+            p.a Дата:
+            p.a 
+               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
+               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
+               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+      div.col
+        figure.figure 
+          br
+          button.zadacha
+            p.a Название задачи:
+            p.a Краткое описание:
+            br
+            br
+            p.a Дата:
+            p.a 
+               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
+               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
+               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")  
+            
+    div.row.align-items-start
+      div.col 
+        figure.figure
+          button.process
+            figcaption.figure-caption Выполняются
+          
+          button.plus +
+          br
+          button.zadacha
+            p.a Название задачи:
+            p.a Краткое описание:
+            br
+            br
+            p.a Дата:
+            p.a 
+               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
+               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
+               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image") 
+            
+          
+        
+        div.col
+          figure.figure
+            br
+            button.zadacha
+            p.a Название задачи:
+            p.a Краткое описание:
+            br
+            br
+            p.a Дата:
+            p.a 
+               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
+               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
+               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+              
+    div.row.align-items-start
+      div.col
+        figure.figure
+          button.process
+            figcaption.figure-caption Проверяются
+
+          button.plus +
+          br
+          button.zadacha 
+            p.a Название задачи:
+            p.a Краткое описание:
+            br
+            br
+            p.a Дата:
+            p.a 
+               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
+               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
+               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image") 
+            
+        div.col 
+          figure.figure
+            br
+            button.zadacha
+            p.a Название задачи:
+            p.a Краткое описание:
+            br
+            br
+            p.a Дата:
+            p.a 
+               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
+               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
+               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+              
+    div.row.lign-items-start
+      div.col
+        figure.figure
+          button.process
+            figcaption.figure-caption Сделаны
+          
+          button.plus +
+          br
+          button.zadacha 
+            p.a Название задачи:
+            p.a Краткое описание:
+            br
+            br
+            p.a Дата:
+            p.a 
+               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
+               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
+               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+            
+        div.col 
+          figure.figure
+            br
+            button.zadacha 
+            p.a Название задачи:
+            p.a Краткое описание:
+            br
+            br
+            p.a Дата:
+            p.a 
+               img(class="zad" src="zadacha.png" class="img-fluid" alt="Responsive image") 0/5
+               img(class="comment" src="comment.png" class="img-fluid" alt="Responsive image") 3
+               img(class="ava" src="ava.png" class="img-fluid" alt="Responsive image")
+              
+body 
+div.container-fluid 
+  footer 2022 © Influence - Designed by Dashboard footer 
+html 
